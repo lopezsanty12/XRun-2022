@@ -11,15 +11,16 @@
 body {
   font-family: "Radio Canada", sans-serif;
   color: #444444;
+  /* background-color: #ccc6b8cc; */
 }
 
 a {
-  color: #1bac91;
+  /* color: #1bac91; */
   text-decoration: none;
 }
 
 a:hover {
-  color: #22d8b6;
+  /* color: #22d8b6; */
   text-decoration: none;
 }
 
@@ -65,6 +66,7 @@ h1, h2, h3, h4, h5, h6 {
     transition-delay: 0 !important;
   }
 }
+
 /*--------------------------------------------------------------
 # Header
 --------------------------------------------------------------*/
@@ -416,10 +418,40 @@ section {
   font-weight: 300;
   margin-bottom: 20px;
   padding-bottom: 0;
-  color: #21413c;
+  color: #320000;
 }
 .section-title p {
   margin-bottom: 0;
+}
+
+/*--------------------------------------------------------------
+# Values
+--------------------------------------------------------------*/
+.values .box {
+  padding: 30px;
+  box-shadow: 0px 0 5px rgba(155, 155, 148, 0.575);
+  /* box-shadow: 0px 0 5px rgba(0, 22, 59, 0.08); */
+  text-align: center;
+  transition: 0.3s;
+  height: 100%;
+}
+.values .box img {
+  padding: 30px 50px;
+  transition: 0.5s;
+  transform: scale(1.1);
+}
+.values .box h3 {
+  font-size: 24px;
+  color: #5d2417;
+  font-weight: 700;
+  margin-bottom: 18px;
+}
+.values .box:hover {
+  box-shadow: 0px 0 30px rgba(68, 36, 0, 0.5);
+  /* box-shadow: 0px 0 30px rgba(1, 41, 112, 0.08); */
+}
+.values .box:hover img {
+  transform: scale(1);
 }
 
 /*--------------------------------------------------------------
@@ -688,7 +720,7 @@ section {
   font-size: 18px;
   font-weight: bold;
   margin: 10px 0 5px 45px;
-  color: #111;
+  color: #320000;
 }
 .testimonials .testimonial-item h4 {
   font-size: 14px;
@@ -696,7 +728,8 @@ section {
   margin: 0 0 0 45px;
 }
 .testimonials .testimonial-item .quote-icon-left, .testimonials .testimonial-item .quote-icon-right {
-  color: #a8d3cc;
+  color: #d3cba8;
+  /* color: #a8d3cc; */
   font-size: 26px;
 }
 .testimonials .testimonial-item .quote-icon-left {
@@ -729,10 +762,12 @@ section {
   height: 12px;
   background-color: #fff;
   opacity: 1;
-  border: 1px solid #1bac91;
+  /* border: 1px solid #1bac91; */
+  border: 1px solid #c57d56;
 }
 .testimonials .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #1bac91;
+  /* background-color: #1bac91; */
+  background-color: #c57d56;
 }
 
 /*--------------------------------------------------------------
@@ -1235,6 +1270,9 @@ section {
 }
 #footer .footer-top .footer-info {
   margin-bottom: 30px;
+}
+#footer .footer-top .footer-info a {
+  color: #ffb48a;
 }
 #footer .footer-top .footer-info h3 {
   font-size: 24px;
