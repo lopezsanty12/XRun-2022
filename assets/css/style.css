@@ -610,11 +610,11 @@ section {
   border: 0;
   padding: 20px;
   transition: 0.3s;
-  color: #8d4925;
+  color: #b945c4;
 }
-.features .nav-link:hover {
-  color: #5d2417;
-}
+/* .features .nav-link:hover {
+  color: #1b18d2;
+} */
 .features .nav-link h4 {
   font-size: 23px;
   font-weight: 600;
@@ -624,14 +624,16 @@ section {
   margin-bottom: 0;
 }
 .features .nav-link.active {
-  box-shadow: 0px 2px 15px rgba(255, 2, 2, 0.205);
+  box-shadow: 0px 2px 15px rgba(204, 2, 255, 0.205);
 }
 .features .nav-link.active h4 {
-  color: #320000;
+  color: #170ad4;
 }
 .features .tab-pane.active {
   -webkit-animation: slide-down 0.5s ease-out;
   animation: slide-down 0.5s ease-out;
+  color: #1b18d2;
+  font-size: large;
 }
 @-webkit-keyframes slide-down {
   0% {
@@ -781,7 +783,7 @@ section {
   margin: 0 auto 35px auto;
   list-style: none;
   text-align: center;
-  background: #ffb48a;
+  background: #b945c4;
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
   border-radius: 50px;
   padding: 8px 20px;
@@ -794,12 +796,12 @@ section {
   font-weight: 600;
   line-height: 1;
   text-transform: uppercase;
-  color: #444444;
+  color: #ffffff;
   margin-bottom: 5px;
   transition: all 0.3s ease-in-out;
 }
 .portfolio #portfolio-flters li:hover, .portfolio #portfolio-flters li.filter-active {
-  color: #320000;
+  color: #131fc0;
 }
 .portfolio #portfolio-flters li:last-child {
   margin-right: 0;
