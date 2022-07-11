@@ -393,6 +393,25 @@ h1, h2, h3, h4, h5, h6 {
   border-color: #ffb48a;
   background: #e42121d8;
 }
+#hero .btn-get-ticket {
+  font-family: "Raleway", sans-serif;
+  /* text-transform: uppercase; */
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 8px 28px;
+  border-radius: 4px;
+  transition: 0.5s;
+  border: 2px solid #fff;
+  color: rgb(255, 0, 0);
+  background-color: #ffee00;
+  margin-top: 15px;
+}
+/* #hero .btn-get-ticket:hover {
+  border-color: #ffb48a;
+  background: #2165e4d8;
+} */
 @media (min-width: 1024px) {
   #hero {
     background-attachment: fixed;
